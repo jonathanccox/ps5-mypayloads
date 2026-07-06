@@ -8,5 +8,15 @@
     "description": "psupload",
     "last_update": "2026-07-06",
     "version": "v3.3.26"
+  },
+  {
+    "name": "game-compressor",
+    "filename": "game-compressor.elf",
+    "url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.3/game-compressor.elf",
+    "source": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases",
+    "source_direct": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.3/game-compressor.elf",
+    "description": "Standalone payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games via Web UI.",
+    "last_update": "2026-06-22",
+    "version": "v1.0.3"
   }
 ]
