@@ -1,12 +1,12 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload-3.3.26.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.26.elf",
+    "filename": "ps5upload-3.3.2.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.2.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.26.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.2.elf",
     "description": "psupload",
-    "last_update": "2026-07-06",
-    "version": "3.3.26"
+    "last_update": "2026-07-0",
+    "version": "3.3.2"
   }
 ]
