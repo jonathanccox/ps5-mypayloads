@@ -37,14 +37,12 @@ jobs:
 
       - name: Overwrite payloads.json
         run: |
-          # Use jq to rewrite the target JSON block properties cleanly without manual parsing errors
-          jq --arg name "ps5upload" \
-             --arg file "${{ env.FILENAME }}" \
+          # Use jq targeting a flat array structure (.[0]) to update all 5 parameters seamlessly
+          jq --arg file "${{ env.FILENAME }}" \
              --arg url "${{ env.URL }}" \
-             --arg src "https://github.com/phantomptr/ps5upload/releases" \
              --arg date "${{ env.DATE }}" \
              --arg ver "${{ env.VER }}" \
-             '.payloads[0].filename = $file | .payloads[0].url = $url | .payloads[0].source_direct = $url | .payloads[0].last_update = $date | .payloads[0].version = $ver' payloads.json > tmp.json && mv tmp.json payloads.json
+             '.[0].filename = $file | .[0].url = $url | .[0].source_direct = $url | .[0].last_update = $date | .[0].version = $ver' payloads.json > tmp.json && mv tmp.json payloads.json
 
       - name: Push Automated Changes
         run: |
