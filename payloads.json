@@ -1,13 +1,13 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload-7.0.26.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.26/ps5upload-7.0.26.elf",
+    "filename": "ps5upload-7.0.31.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.31/ps5upload-7.0.31.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.26/ps5upload-7.0.26.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.31/ps5upload-7.0.31.elf",
     "description": "ps5upload",
-    "last_update": "2026-10-16",
-    "version": "v7.0.26"
+    "last_update": "2026-10-17",
+    "version": "v7.0.31"
   },
   {
     "name": "game-compressor",
